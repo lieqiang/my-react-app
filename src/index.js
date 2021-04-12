@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+// import PureComponent from './components/PureComponent';
+// import ShouldComponentUpdate from './components/ShouldComponentUpdate';
+import Memo from './components/Memo';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Memo />
   </React.StrictMode>,
   document.getElementById('root')
 );
